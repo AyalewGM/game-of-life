@@ -21,14 +21,14 @@ These are often abbreviated **B3/S23**: a dead cell is *born* with three neighbo
 
 Let $s_t(x,y) \in \{0,1\}$ denote a cell's state at generation $t$, and let $n_t(x,y)$ count its living neighbors. Then
 
-$
+$$
 s_{t+1}(x,y)=
 \begin{cases}
 1 & \text{if } n_t(x,y)=3,\\
 1 & \text{if } s_t(x,y)=1 \text{ and } n_t(x,y)=2,\\
 0 & \text{otherwise}.
 \end{cases}
-$
+$$
 
 The rules are **deterministic**: the same starting arrangement always produces the same future, without randomness.
 
